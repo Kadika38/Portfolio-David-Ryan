@@ -2,7 +2,6 @@
     --mainColor: #847979;
     --secondColor: #2A1A1F;
     --threeColor: #FFCF99;
-    --fourColor: lightblue;
 }
 
 .flexy {
@@ -67,7 +66,7 @@
 }
 
 #backImgLP {
-    background-image: url('assets/backImgLPtest.jpg');
+    background-image: url('assets/backImgLP.jpg');
     height: 300px;
     justify-content: right;
     align-items: flex-end;
@@ -93,7 +92,7 @@
 .bigSideWords {
     font-size: 55px;
     font-weight: bold;
-    color: var(--twoColor);
+    color: var(--secondColor);
     justify-content: right;
     text-align: right;
     padding-right: 10px;
@@ -101,6 +100,12 @@
 }
 
 .mainStuff {
+    padding-left: 30px;
+    padding-right: 30px;
+    color: var(--secondColor);
+}
+
+.mainStuffWork {
     padding-left: 30px;
     padding-right: 30px;
     color: var(--threeColor);
