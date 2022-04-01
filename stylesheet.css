@@ -1,0 +1,193 @@
+:root {
+    --mainColor: #847979;
+    --secondColor: #FFCF99;
+    --threeColor: #2A1A1F;
+    --fourColor: lightblue;
+}
+
+.flexy {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.equally {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.toSides {
+    justify-content: space-between;
+}
+
+.fullContainer {
+    width: 100%;
+}
+
+.fifteenContainer {
+    width: 15%;
+}
+
+.fortyNineContainer {
+    width: 49%;
+}
+
+.eightyFiveContainer {
+    width: 85%;
+}
+
+#titleContainer {
+    background-color: var(--mainColor);
+}
+
+#title {
+    background-color: var(--secondColor);
+    font-size: 60px;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titleLink {
+    font-size: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 45px;
+}
+
+#backImgLP {
+    background-image: url('assets/backImgLP-Sparth.jpg');
+    height: 300px;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+#coolSub {
+    background-color: var(--secondColor);
+    margin-right: 40px;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.bodySec {
+    background-color: var(--threeColor);
+}
+
+.spacy {
+    height: 40px;
+}
+
+.bigSideWords {
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+    justify-content: right;
+    text-align: right;
+    padding-right: 10px;
+    border-right-style: solid;
+}
+
+.mainStuff {
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+}
+
+#work1 {
+    background-image: url('assets/work1img.jpg');
+    height: 600px;
+}
+
+#work2 {
+    background-image: url('assets/work2img.jpg');
+}
+
+#work3 {
+    background-image: url('assets/work3img.jpg');
+}
+
+#work4 {
+    background-image: url('assets/work4img.jpg');
+}
+
+#work5 {
+    background-image: url('assets/work5img.jpg');
+}
+
+.cover {
+    position: absolute;
+    background-color: gray;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+}
+
+.invisLink {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.workSmall {
+    height: 250px;
+}
+
+.workContainer {
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    border-style: solid;
+    border-color: var(--secondColor);
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-top: 1%;
+}
+
+.workContainer:hover .cover {
+    opacity: 0;
+}
+
+.workInsideContainer {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background-color: var(--secondColor);
+    margin-bottom: 20px;
+
+}
+
+.workWords {
+    text-align: center;
+    padding: 5px;
+}
+
+.workTitle {
+    font-size: 25px;
+}
+
+.workSubtitle {
+    font-size: 15px;
+}
+
+#spacyEnd {
+    height: 15px;
+}
+
+@media screen and (max-width: 1300px) {
+    .bigSideWords {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .bigSideWords {
+        font-size: 35px;
+    }
+}
