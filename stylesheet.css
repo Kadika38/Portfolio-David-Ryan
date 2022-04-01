@@ -1,7 +1,7 @@
 :root {
     --mainColor: #847979;
-    --secondColor: #FFCF99;
-    --threeColor: #2A1A1F;
+    --secondColor: #2A1A1F;
+    --threeColor: #FFCF99;
     --fourColor: lightblue;
 }
 
@@ -37,11 +37,12 @@
 }
 
 #titleContainer {
-    background-color: var(--mainColor);
+    background-color: var(--secondColor);
 }
 
 #title {
-    background-color: var(--secondColor);
+    background-color: var(--threeColor);
+    color: var(--secondColor);
     font-size: 60px;
     font-weight: bold;
     padding: 5px;
@@ -61,8 +62,12 @@
     padding-top: 45px;
 }
 
+.titleA {
+    color: var(--threeColor);
+}
+
 #backImgLP {
-    background-image: url('assets/backImgLP-Sparth.jpg');
+    background-image: url('assets/backImgLPtest.jpg');
     height: 300px;
     justify-content: right;
     align-items: flex-end;
@@ -70,6 +75,7 @@
 
 #coolSub {
     background-color: var(--secondColor);
+    color: var(--threeColor);
     margin-right: 40px;
     margin-bottom: 20px;
     padding: 5px;
@@ -87,7 +93,7 @@
 .bigSideWords {
     font-size: 55px;
     font-weight: bold;
-    color: white;
+    color: var(--twoColor);
     justify-content: right;
     text-align: right;
     padding-right: 10px;
@@ -97,7 +103,7 @@
 .mainStuff {
     padding-left: 30px;
     padding-right: 30px;
-    color: white;
+    color: var(--threeColor);
 }
 
 #work1 {
@@ -174,6 +180,10 @@
 
 .workSubtitle {
     font-size: 15px;
+}
+
+.footerA {
+    color: var(--secondColor);
 }
 
 #spacyEnd {
