@@ -2,4 +2,4 @@ Hello!
 
 Section 1: Title
 
-![Screenshot of Website]()
+![Screenshot of Website](assets/screenshotOfPortfolio.jpg)
