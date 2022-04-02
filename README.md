@@ -1,5 +1,13 @@
-Hello!
+# <Portfolio-David-Rysn>
 
-Section 1: Title
+## Description
 
-![Screenshot of Website](assets/screenshotOfPortfolio.jpg)
+    This is a description
+
+## Screenshot
+
+    ![Screenshot of Website](assets/screenshotOfPortfolio.jpg)
+
+## Link to Deployed Website
+
+    https://kadika38.github.io/Portfolio-David-Ryan/
