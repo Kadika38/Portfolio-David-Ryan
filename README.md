@@ -6,7 +6,7 @@
 
 ## Screenshot
 
-    ![Screenshot of Website](assets/screenshotOfPortfolio.jpg)
+![Screenshot of Website](assets/screenshotOfPortfolio.jpg)
 
 ## Link to Deployed Website
 
