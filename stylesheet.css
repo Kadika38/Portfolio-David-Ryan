@@ -138,24 +138,24 @@
 
 /* Images used for Work section */
 #work1 {
-    background-image: url('assets/horiseonHomepageScreenshot.jpg');
+    background-image: url('assets/greatDateScreenshot.png');
     height: 600px;
 }
 
 #work2 {
-    background-image: url('assets/testSiteScreenshot.jpg');
+    background-image: url('assets/WeatherDashboardScreenshot.jpg');
 }
 
 #work3 {
-    background-image: url('assets/work3img.jpg');
+    background-image: url('assets/WorkDaySchedulerScreenshot.jpg');
 }
 
 #work4 {
-    background-image: url('assets/work4img.jpg');
+    background-image: url('assets/screenshotOfCodingQuiz.jpg');
 }
 
 #work5 {
-    background-image: url('assets/work5img.jpg');
+    background-image: url('assets/kadikaWebsiteTestingPhaseScreenshot.jpg');
 }
 
 /* Cover is used as an element over the images to add variable opacity based on hover */
@@ -180,7 +180,8 @@
 
 /* Styling for Work section */
 .workSmall {
-    height: 250px;
+    height: 340px;
+    background-size: cover;
 }
 
 .workContainer {
@@ -213,6 +214,10 @@
 
 .workSubtitle {
     font-size: 15px;
+}
+
+.hubLink {
+    color: var(--threeColor);
 }
 
 /* styling for Contact Me footer section */

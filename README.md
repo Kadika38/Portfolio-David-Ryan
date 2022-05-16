@@ -16,9 +16,6 @@
     The other three tiles are currently placeholders for future projects.
     The bottom of the page has a 'Contact Me' section with my phone number and email address as well as a link to my GitHub.
 
-    P.S. The placeholder links work, to showcase my abilities.
-    Since they are just placeholders, they just open a funny image in another tab.
-
 ## Screenshot
 
 ![Screenshot of Website](assets/screenshotOfPortfolio.jpg)
