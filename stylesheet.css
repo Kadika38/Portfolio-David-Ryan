@@ -138,24 +138,24 @@
 
 /* Images used for Work section */
 #work1 {
-    background-image: url('assets/greatDateScreenshot.png');
+    background-image: url('assets/petConnectScreenshot.jpg');
     height: 600px;
 }
 
 #work2 {
-    background-image: url('assets/WeatherDashboardScreenshot.jpg');
+    background-image: url('assets/techBlogScreenshot.jpg');
 }
 
 #work3 {
-    background-image: url('assets/WorkDaySchedulerScreenshot.jpg');
+    background-image: url('assets/ecommerceBackendScreenshot.jpg');
 }
 
 #work4 {
-    background-image: url('assets/screenshotOfCodingQuiz.jpg');
+    background-image: url('assets/employeeManagementSystemScreenshot.jpg');
 }
 
 #work5 {
-    background-image: url('assets/kadikaWebsiteTestingPhaseScreenshot.jpg');
+    background-image: url('assets/noteTakerScreenshot.jpg');
 }
 
 /* Cover is used as an element over the images to add variable opacity based on hover */
