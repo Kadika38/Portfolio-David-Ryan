@@ -1,12 +1,6 @@
 import React from "react";
-import All from "./components/All";
+import Main from "./components/Main";
 
-function App() {
-  return (
-    <div>
-      <All />
-    </div>
-  );
-}
+const App = () => <Main />;
 
 export default App;
