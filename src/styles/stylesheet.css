@@ -69,6 +69,11 @@
     color: var(--black);
 }
 
+.titleACurrent {
+    color: var(--black);
+    font-size: 30px;
+}
+
 /* The background image section below the Title section */
 #backImgLP {
     position: relative;
