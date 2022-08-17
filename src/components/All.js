@@ -19,17 +19,17 @@ function All() {
                 <a class="titleA" href="#contactMe">Contact Me</a>
             </div>
             <div class="titleLink">
-                <a class="titleA" href="kadikaResume.pdf" target="_blank" download>Resume</a>
+                <a class="titleA" href={require('../assets/resume-david-ryan.pdf')} target="_blank">Resume</a>
             </div>
         </div>
     </section>
 
     <section id="backImgLP" class="flexy">
         <div>
-            <img id="mePic" src="assets/meForAccounts.jpg" alt="An image of me"/>
+            <img id="mePic" src={require('../assets/meForAccounts.jpg')} alt="An image of me"/>
         </div>
         <div id="coolSub">
-            This is my portfolio site!
+            This is my portfolio site built with React!
         </div>
     </section>
 
@@ -138,7 +138,7 @@ function All() {
                 <a class="footerA" href="https://github.com/Kadika38" target="_blank">GitHub</a>
             </div>
             <div>
-                <a class="footerA" href="www.linkedin.com/in/david-ryan-305860183" target="_blank">LinkedIn</a>
+                <a class="footerA" href="https://linkedin.com/in/david-ryan-305860183" target="_blank">LinkedIn</a>
             </div>
         </div>
     </section>
