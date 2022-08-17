@@ -2,12 +2,14 @@ import React from 'react';
 
 export default function Portfolio() {
     return (
-        <section  id="work" className="flexy bodySec">
-            <div className="fifteenContainer flexy bigSideWords">
-                Work
+        <section className="flexy bodySec">
+            <div className='fullContainer mainStuff'>
+                <h3>
+                    Portfolio
+                </h3>
             </div>
-            <div className="flexy eightyFiveContainer mainStuffWork">
-                <div id="work1" className="fullContainer workContainer">
+            <div className="flexy fullContainer mainStuffWork">
+                <div id="work1" className="fortyFiveContainer workContainer">
                     <div className="cover"></div>
                     <div className="workInsideContainer">
                         <div className="workTitle workWords">
@@ -19,7 +21,7 @@ export default function Portfolio() {
                     </div>
                     <a className="invisLink" href="https://github.com/haleyhilton/P2-Petconnect" target="_blank"></a>
                 </div>
-                <div id="work2" className="fortyNineContainer workContainer workSmall">
+                <div id="work2" className="fortyFiveContainer workContainer workSmall">
                     <div className="cover"></div>
                     <div className="workInsideContainer">
                         <div className="workTitle workWords">
@@ -31,7 +33,7 @@ export default function Portfolio() {
                     </div>
                     <a className="invisLink" href="https://github.com/Kadika38/Tech-Blog-David-Ryan" target="_blank"></a>
                 </div>
-                <div id="work3" className="fortyNineContainer workContainer workSmall">
+                <div id="work3" className="fortyFiveContainer workContainer workSmall">
                     <div className="cover"></div>
                     <div className="workInsideContainer">
                         <div className="workTitle workWords">
@@ -43,7 +45,7 @@ export default function Portfolio() {
                     </div>
                     <a className="invisLink" href="https://github.com/Kadika38/E-Commerce-Back-End-David-Ryan" target="_blank"></a>
                 </div>
-                <div id="work4" className="fortyNineContainer workContainer workSmall">
+                <div id="work4" className="fortyFiveContainer workContainer workSmall">
                     <div className="cover"></div>
                     <div className="workInsideContainer">
                         <div className="workTitle workWords">
@@ -55,7 +57,7 @@ export default function Portfolio() {
                     </div>
                     <a className="invisLink" href="https://github.com/Kadika38/Employee-Management-System-David-Ryan" target="_blank"></a>
                 </div>
-                <div id="work5" className="fortyNineContainer workContainer workSmall">
+                <div id="work5" className="fortyFiveContainer workContainer workSmall">
                     <div className="cover"></div>
                     <div className="workInsideContainer">
                         <div className="workTitle workWords">
@@ -67,7 +69,18 @@ export default function Portfolio() {
                     </div>
                     <a className="invisLink" href="https://github.com/Kadika38/PWA-Text-Editor-David-Ryan" target="_blank"></a>
                 </div>
-                
+                <div id="work6" className="fortyFiveContainer workContainer workSmall">
+                    <div className="cover"></div>
+                    <div className="workInsideContainer">
+                        <div className="workTitle workWords">
+                            Social Network API
+                        </div>
+                        <div className="workSubtitle workWords">
+                            Back-end only program exemplifying a MongoDB database
+                        </div>
+                    </div>
+                    <a className="invisLink" href="https://github.com/Kadika38/PWA-Text-Editor-David-Ryan" target="_blank"></a>
+                </div>
             </div>
         </section>
     );
