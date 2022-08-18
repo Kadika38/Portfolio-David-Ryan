@@ -43,7 +43,7 @@ export default function Contact() {
         e.preventDefault();
   
         if (!validateEmail(email)) {
-        setErrorMessage('Your email is invalid');
+        setErrorMessage('Your email is invalid!');
         return;
         }
         alert(`Message Sent!`);

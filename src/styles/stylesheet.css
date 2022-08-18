@@ -200,6 +200,10 @@ button {
     font-size: 12px;
 }
 
+.errMsg p {
+    margin: 20px 0 0 0;
+}
+
 /* Images used for Work section */
 #work1 {
     background-image: url('../assets/petConnectScreenshot.jpg');
