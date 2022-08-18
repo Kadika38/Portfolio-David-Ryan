@@ -2,46 +2,55 @@ import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
 export default function Contact() {
-    // Create state variables for the fields in the form
-    // We are also setting their initial values to an empty string
     const [email, setEmail] = useState('');
     const [contactName, setContactName] = useState('');
     const [message, setMessage] = useState('');
+    const [noNameMessage, setNoNameMessage] = useState('');
+    const [noEmailMessage, setNoEmailMessage] = useState('');
+    const [noMessageMessage, setNoMessageMessage] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
   
     const handleInputChange = (e) => {
-      // Getting the value and name of the input which triggered the change
-      const { target } = e;
-      const inputType = target.name;
-      const inputValue = target.value;
-  
-      // Based on the input type, we set the state of either email, username, and password
-      if (inputType === 'email') {
-        setEmail(inputValue);
-      } else if (inputType === 'name') {
-        setContactName(inputValue);
-      } else {
-        setMessage(inputValue);
-      }
+        const { target } = e;
+        const inputType = target.name;
+        const inputValue = target.value;
+
+        if (inputType === 'email') {
+            setEmail(inputValue);
+            if (inputValue.trim() === '') {
+                setNoEmailMessage('Required field!')
+            } else {
+                setNoEmailMessage('')
+            }
+        } else if (inputType === 'name') {
+            setContactName(inputValue);
+            if (inputValue.trim() === '') {
+                setNoNameMessage('Required field!')
+            } else {
+                setNoNameMessage('')
+            }
+        } else {
+            setMessage(inputValue);
+            if (inputValue.trim() === '') {
+                setNoMessageMessage('Required field!')
+            } else {
+                setNoMessageMessage('')
+            }
+        }
     };
   
     const handleFormSubmit = (e) => {
-      // Preventing the default behavior of the form submit (which is to refresh the page)
-      e.preventDefault();
+        e.preventDefault();
   
-      // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
-      if (!validateEmail(email)) {
+        if (!validateEmail(email)) {
         setErrorMessage('Your email is invalid');
-        // We want to exit out of this code block if something is wrong so that the user can correct it
         return;
-        // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
-      }
-      alert(`Message Sent!`);
-  
-      // If everything goes according to plan, we want to clear out the input after a successful registration.
-      setContactName('');
-      setEmail('');
-      setMessage('');
+        }
+        alert(`Message Sent!`);
+    
+        setContactName('');
+        setEmail('');
+        setMessage('');
     };
   
     return (
@@ -62,39 +71,52 @@ export default function Contact() {
                             onChange={handleInputChange}
                             type="text"
                             id="contactFormName"
+                            required
                         />
+                        {noNameMessage && (
+                            <div className="errMsg">
+                                {noNameMessage}
+                            </div>
+                        )}
                     </div>
-                    <br/>
                     <div>
                         <label for="contactFormEmail">
                             Email:
                         </label>
-                        <br/>
                         <input
                             value={email}
                             name="email"
                             onChange={handleInputChange}
                             type="email"
                             id="contactFormEmail"
+                            required
                         />
+                        {noEmailMessage && (
+                            <div className="errMsg">
+                                {noEmailMessage}
+                            </div>
+                        )}
                     </div>
-                    <br/>
                     <div>
                         <label for="contactFormMessage">
                             Message:
                         </label>
-                        <br/>
                         <textarea
                             value={message}
                             name="message"
                             onChange={handleInputChange}
                             type="text"
                             id="contactFormMessage"
+                            required
                         />
+                        {noMessageMessage && (
+                            <div className="errMsg">
+                                {noMessageMessage}
+                            </div>
+                        )}
                     </div>
-                    <br/>
                     {errorMessage && (
-                        <div id="errMsg">
+                        <div className="errMsg">
                             <p>{errorMessage}</p>
                         </div>
                     )}

@@ -194,8 +194,10 @@ button {
     height: 200px;
 }
 
-#errMsg {
-    margin: 10px 0px;
+.errMsg {
+    margin: -8px 0px 10px 0px;
+    color: red;
+    font-size: 12px;
 }
 
 /* Images used for Work section */
