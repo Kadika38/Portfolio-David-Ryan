@@ -1,7 +1,11 @@
 :root {
-    /* Deleted one color here but I'm too lazy to rename everything */
-    --secondColor: #2A1A1F;
-    --threeColor: #FFCF99;
+    --lavender: #D3B1D3;
+    --black: #000000;
+    --frost: #F5F5F5
+}
+
+html {
+    background-color: var(--black);
 }
 
 /* Basic containers and display setups */
@@ -28,6 +32,10 @@
     width: 15%;
 }
 
+.fortyFiveContainer {
+    width: 45%;
+}
+
 .fortyNineContainer {
     width: 49%;
 }
@@ -38,19 +46,20 @@
 
 /* Title Section */
 #titleContainer {
-    background-color: var(--secondColor);
+    background-color: var(--lavender);
 }
 
 /* The actual title */
 #title {
-    background-color: var(--threeColor);
-    color: var(--secondColor);
+    background-color: var(--black);
+    color: var(--lavender);
     font-size: 60px;
     font-weight: bold;
     padding: 5px;
     margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 /* The links on the top right */
@@ -66,13 +75,24 @@
 }
 
 .titleA {
-    color: var(--threeColor);
+    color: var(--black);
+    text-decoration: none;
+    padding: 5px;
+}
+
+.titleACurrent {
+    color: var(--black);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 5px;
 }
 
 /* The background image section below the Title section */
 #backImgLP {
     position: relative;
-    background-image: url('assets/backImgLP.jpg');
+    background-image: url('../assets/backImgLP.jpg');
     height: 300px;
     justify-content: right;
     align-items: flex-end;
@@ -88,8 +108,8 @@
 
 /* subtitle in background image */
 #coolSub {
-    background-color: var(--secondColor);
-    color: var(--threeColor);
+    background-color: var(--lavender);
+    color: var(--black);
     margin-right: 40px;
     margin-bottom: 20px;
     padding: 5px;
@@ -98,7 +118,7 @@
 
 /* The background color for all the main body sections */
 .bodySec {
-    background-color: var(--threeColor);
+    background-color: var(--black);
 }
 
 /* Used to add space between sections */
@@ -110,7 +130,7 @@
 .bigSideWords {
     font-size: 55px;
     font-weight: bold;
-    color: var(--secondColor);
+    color: var(--lavender);
     justify-content: right;
     text-align: right;
     padding-right: 10px;
@@ -119,9 +139,20 @@
 
 /* Styling for main wording */
 .mainStuff {
-    padding-left: 30px;
-    padding-right: 30px;
-    color: var(--secondColor);
+    padding: 30px 7%;
+    color: var(--lavender);
+}
+
+.mainStuff h3 {
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.mainStuff img {
+    height: 200px;
+    border-radius: 15px;
 }
 
 .mainStuff p {
@@ -130,32 +161,72 @@
     font-size: 20px;
 }
 
+.mainStuff label {
+    margin-bottom: 5px;
+}
+
+.mainStuff input {
+    width: 99%;
+}
+
+.mainStuff textarea {
+    width: 99%;
+}
+
 .mainStuffWork {
-    padding-left: 30px;
-    padding-right: 30px;
-    color: var(--threeColor);
+    padding: 30px 7%;
+    color: var(--black);
+}
+
+form {
+    margin: 30px 0px;
+}
+
+form div > * {
+    margin: 10px 0px;
+}
+
+button {
+    margin: 10px 0px;
+}
+
+#contactFormMessage {
+    height: 200px;
+}
+
+.errMsg {
+    margin: -8px 0px 10px 0px;
+    color: red;
+    font-size: 12px;
+}
+
+.errMsg p {
+    margin: 20px 0 0 0;
 }
 
 /* Images used for Work section */
 #work1 {
-    background-image: url('assets/petConnectScreenshot.jpg');
-    height: 600px;
+    background-image: url('../assets/petConnectScreenshot.jpg');
 }
 
 #work2 {
-    background-image: url('assets/techBlogScreenshot.jpg');
+    background-image: url('../assets/techBlogScreenshot.jpg');
 }
 
 #work3 {
-    background-image: url('assets/ecommerceBackendScreenshot.jpg');
+    background-image: url('../assets/ecommerceBackendScreenshot.jpg');
 }
 
 #work4 {
-    background-image: url('assets/employeeManagementSystemScreenshot.jpg');
+    background-image: url('../assets/employeeManagementSystemScreenshot.jpg');
 }
 
 #work5 {
-    background-image: url('assets/noteTakerScreenshot.jpg');
+    background-image: url('../assets/jateScreenshot.jpg');
+}
+
+#work6 {
+    background-image: url('../assets/socialNetworkAPIScreenshot.jpg');
 }
 
 /* Cover is used as an element over the images to add variable opacity based on hover */
@@ -180,7 +251,7 @@
 
 /* Styling for Work section */
 .workSmall {
-    height: 340px;
+    height: 400px;
     background-size: cover;
 }
 
@@ -188,17 +259,15 @@
     display: flex;
     position: relative;
     border-style: solid;
-    border-color: var(--secondColor);
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    margin-top: 1%;
+    border-color: var(--lavender);
+    margin: 2%;
 }
 
 .workInsideContainer {
     position: absolute;
     left: 0px;
     bottom: 0px;
-    background-color: var(--secondColor);
+    background-color: var(--lavender);
     margin-bottom: 20px;
 
 }
@@ -217,12 +286,12 @@
 }
 
 .hubLink {
-    color: var(--threeColor);
+    color: var(--black);
 }
 
 /* styling for Contact Me footer section */
 .footerA {
-    color: var(--secondColor);
+    color: var(--lavender);
 }
 
 /* Add space after Contact Me section for visual appeal */
