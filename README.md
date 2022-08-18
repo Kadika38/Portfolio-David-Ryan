@@ -1,5 +1,5 @@
 # Portfolio-David-Ryan
-This is my portfolio website.  Deployed at ?
+This is my portfolio website.  Deployed at https://github.com/Kadika38/Portfolio-David-Ryan.
 
 ## Table of Contents
 * [Description](#general-description)
@@ -16,7 +16,7 @@ This is my portfolio website.  It makes use of React though it honestly doesn't 
 
 
 ## Deployment
-Deployed using Heroku at ?.
+Deployed using Heroku.
 
 ## License
 This repository is not licensed.
