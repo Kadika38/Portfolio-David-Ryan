@@ -12,7 +12,7 @@ This is my portfolio website.  Deployed at https://github.com/Kadika38/Portfolio
     
     
 ## Description
-This is my portfolio website.  It makes use of React though it honestly doesn't need it.
+This is my portfolio website.  It uses React!
 
 
 ## Deployment
