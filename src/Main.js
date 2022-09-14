@@ -4,7 +4,7 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
-import '../styles/stylesheet.css';
+import './styles/stylesheet.css';
 import Footer from './components/Footer';
 
 export default function Main() {

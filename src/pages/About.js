@@ -8,7 +8,7 @@ export default function About() {
                     About Me
                 </h3>
                 <br/>
-                <img src={require('../../assets/meForAccounts.jpg')}/>
+                <img src={require('../assets/meForAccounts.jpg')}/>
                 <br/>
                 <br/>
                 <p>
