@@ -24,6 +24,10 @@ html {
     justify-content: space-between;
 }
 
+.center {
+    justify-content: center;
+}
+
 .fullContainer {
     width: 100%;
 }
@@ -297,6 +301,22 @@ button {
 /* Add space after Contact Me section for visual appeal */
 #spacyEnd {
     height: 15px;
+}
+
+#footerContainer {
+    height: 50px;
+}
+
+#footerLinkContainer {
+    width: 200px;
+}
+
+.footerA {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 5px;
 }
 
 /*Adjustments for screen size*/
