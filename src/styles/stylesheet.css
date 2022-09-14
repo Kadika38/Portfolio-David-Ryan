@@ -93,15 +93,6 @@ html {
     border-radius: 5px;
 }
 
-/* The background image section below the Title section */
-#backImgLP {
-    position: relative;
-    background-image: url('../assets/backImgLP.jpg');
-    height: 300px;
-    justify-content: right;
-    align-items: flex-end;
-}
-
 /* An image of me */
 #mePic {
     position: absolute;
@@ -210,27 +201,27 @@ button {
 
 /* Images used for Work section */
 #work1 {
-    background-image: url('../assets/petConnectScreenshot.jpg');
+    background-image: url('../assets/petConnect2.png');
 }
 
 #work2 {
-    background-image: url('../assets/techBlogScreenshot.jpg');
+    background-image: url('../assets/bseScreenshot.jpg');
 }
 
 #work3 {
-    background-image: url('../assets/ecommerceBackendScreenshot.jpg');
-}
-
-#work4 {
-    background-image: url('../assets/employeeManagementSystemScreenshot.jpg');
-}
-
-#work5 {
     background-image: url('../assets/jateScreenshot.jpg');
 }
 
-#work6 {
+#work4 {
+    background-image: url('../assets/petConnectScreenshot.jpg');
+}
+
+#work5 {
     background-image: url('../assets/socialNetworkAPIScreenshot.jpg');
+}
+
+#work6 {
+    background-image: url('../assets/techBlogScreenshot.jpg');
 }
 
 /* Cover is used as an element over the images to add variable opacity based on hover */
@@ -265,6 +256,8 @@ button {
     border-style: solid;
     border-color: var(--lavender);
     margin: 2%;
+    height: 400px;
+    background-size: contain;
 }
 
 .workInsideContainer {
@@ -273,7 +266,6 @@ button {
     bottom: 0px;
     background-color: var(--lavender);
     margin-bottom: 20px;
-
 }
 
 .workWords {
