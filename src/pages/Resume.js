@@ -10,24 +10,32 @@ export default function Resume() {
                     Resume
                 </h3>
                 <br></br>
-                <p>
-                    Download my 
-                    <span> resume</span>
-                </p>
+                <div className='resumeSpacerBig'></div>
+                <div className='fullContainer'>
+                    <p>
+                        Download my <a id='resumeLink' href='../assets/resume-david-ryan.pdf' download target="_blank">resume</a></p>
+                </div>
                 <br></br>
-                <h4>Front-end Proficiencies</h4>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                </ul>
+                <div className='resumeSpacer'></div>
+                <div className='fullContainer'>
+                    <h4 className='resumeTitle'>Front-end Proficiencies</h4>
+                    <ul className='resumeList'>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
                 <br></br>
-                <h4>Back-end Proficiencies</h4>
-                <ul>
-                    <li>APIs</li>
-                    <li>Node</li>
-                    <li>Express</li>
-                </ul>
+                <div className='resumeSpacer'></div>
+                <div className='fullContainer'>
+                    <h4 className='resumeTitle'>Back-end Proficiencies</h4>
+                    <ul className='resumeList'>
+                        <li>APIs</li>
+                        <li>Node</li>
+                        <li>Express</li>
+                    </ul>
+                </div>
+
             </div>
         </section>
     );
