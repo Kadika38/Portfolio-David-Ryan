@@ -1,4 +1,18 @@
-const typeDefs = require('./typeDefs');
-const resolvers = require('./resolvers');
+const { gql } = require('apollo-server-express');
 
-module.exports = { typeDefs, resolvers };
+const typeDefs = gql`
+    type Contact {
+        _id: ID!
+        email: String!
+        name: String!
+        message: String!
+    }
+
+    type Query {
+        getContacts: [Contact]
+    }
+
+    type Mutation {
+        deleteContact(contactId: ID!): Contact
+    }
+`
