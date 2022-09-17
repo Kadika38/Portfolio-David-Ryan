@@ -13,6 +13,9 @@ const typeDefs = gql`
     }
 
     type Mutation {
+        createContact(email: String!, name: String!, message: String!): Contact
         deleteContact(contactId: ID!): Contact
     }
-`
+`;
+
+module.exports = typeDefs;

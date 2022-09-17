@@ -7,6 +7,9 @@ const resolvers = {
         }
     },
     Mutation: {
+        createContact: async (parent, { email, name, message }) => {
+            return Contact.create({ email, name, message });
+        },
         deleteContact: async (parent, { contactId }) => {
             return Contact.findByIdAndDelete(
                 { _id: contactId }
