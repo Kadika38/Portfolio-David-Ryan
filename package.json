@@ -22,5 +22,8 @@
   },
   "homepage": "https://github.com/Kadika38/Portfolio-David-Ryan#readme",
   "main": "index.js",
-  "keywords": []
+  "keywords": [],
+  "dependencies": {
+    "@apollo/client": "^3.6.9"
+  }
 }

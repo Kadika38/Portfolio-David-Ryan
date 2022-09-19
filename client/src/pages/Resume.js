@@ -1,7 +1,5 @@
 import React from 'react';
 
-//TODO: fix spacing by sectioning into "fullContainer" divs
-
 export default function Resume() {
     return (
         <section className="flexy bodySec">

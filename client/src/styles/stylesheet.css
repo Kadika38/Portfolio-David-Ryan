@@ -316,6 +316,10 @@ button {
     text-decoration: underline;
 }
 
+.secretp {
+    width: 100%;
+}
+
 /* styling for Contact Me footer section */
 .footerA {
     color: var(--lavender);
