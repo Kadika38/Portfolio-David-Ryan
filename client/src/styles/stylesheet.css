@@ -316,8 +316,20 @@ button {
     text-decoration: underline;
 }
 
+.secretNav {
+    color: var(--lavender);
+    cursor: default;
+}
+
 .secretp {
     width: 100%;
+}
+
+.contact {
+    border-style: solid;
+    border-color: var(--lavender);
+    font-size: 24px;
+    font-weight: bold;
 }
 
 /* styling for Contact Me footer section */

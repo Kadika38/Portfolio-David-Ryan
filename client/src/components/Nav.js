@@ -9,7 +9,7 @@ export default function Nav({ currentPage, handlePageChange }) {
         <div className="flexy">
             <div className="titleLink">
                 <a
-                className={currentPage === 'Secret' ? 'titleACurrent' : 'titleA'}
+                className="secretNav"
                 href="#secret"
                 onClick={() => handlePageChange('Secret')}
                 >

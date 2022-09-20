@@ -1,5 +1,7 @@
+import { useMutation } from '@apollo/client';
 import React, { useState } from 'react';
 import { validateEmail } from '../utils/helpers';
+import { CREATE_CONTACT } from '../utils/mutations';
 
 export default function Contact() {
     const [email, setEmail] = useState('');
@@ -9,6 +11,8 @@ export default function Contact() {
     const [noEmailMessage, setNoEmailMessage] = useState('');
     const [noMessageMessage, setNoMessageMessage] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
+
+    const [createContact] = useMutation(CREATE_CONTACT);
   
     const handleInputChange = (e) => {
         const { target } = e;
@@ -46,7 +50,11 @@ export default function Contact() {
         setErrorMessage('Your email is invalid!');
         return;
         }
-        alert(`Message Sent!`);
+        
+        //send info to server
+        createContact({
+            variables: {email: email, name: contactName, message: message},
+        });
     
         setContactName('');
         setEmail('');
