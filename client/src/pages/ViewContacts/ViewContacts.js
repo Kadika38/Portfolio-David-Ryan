@@ -22,7 +22,7 @@ export default function ViewContacts() {
             <div className="flexy fullContainer mainStuff">
                 {contacts.map((contact) => {
                     return (
-                        <ContactCard name={contact.name} email={contact.email} message={contact.message} />
+                        <ContactCard name={contact.name} email={contact.email} message={contact.message} contactId={contact._id} />
                     )
                 })}
             </div>
