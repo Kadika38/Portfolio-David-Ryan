@@ -11,7 +11,7 @@ export default function Resume() {
                 <div className='resumeSpacerBig'></div>
                 <div className='fullContainer'>
                     <p>
-                        Download my <a id='resumeLink' href='../assets/resume-david-ryan.pdf' download target="_blank">resume</a></p>
+                        Download my <a id='resumeLink' href='../assets/Resume.pdf' download target="_blank">resume</a></p>
                 </div>
                 <br></br>
                 <div className='resumeSpacer'></div>
