@@ -26,6 +26,10 @@ export default function About() {
                 <p>
                     Outside of work I enjoy driving cars, exploring San Diego's restaurants, wineries, and breweries, reading, playing video games, seeing movies, and spending time with friends and family.
                 </p>
+                <br/>
+                <p>
+                    Peruse my portfolio - if you're interested enough to reach out, email works best.  My email is dryan10101@gmail.com.  My LinkedIn and GitHub are linked to at the bottom of the page.  You can also reach me with the contact form on the Contact page.  Thanks!
+                </p>
             </div>
         </section>
     );
