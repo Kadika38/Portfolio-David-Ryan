@@ -20,7 +20,7 @@ export default function About() {
                 </p>
                 <br/>
                 <p>
-                    I'm have experience writing code in JavaScript, HTML, CSS, and SQL.  I have deployed projects using several different databases (SQL, MongoDB, indexedDB, GraphQL) and tools such as Express, Sequelize, and Mongoose.  I have multiple projects built using React and two built with Handlebars (React is my preference of the two by far).  I worked on a team of 4-5 on 3 projects, two of which are deployed and showcased in the Portfolio section of this site.
+                    I have experience writing code in JavaScript, HTML, CSS, and SQL.  I have deployed projects using several different databases (SQL, MongoDB, indexedDB, GraphQL) and tools such as Express, Sequelize, and Mongoose.  I have multiple projects built using React and two built with Handlebars (React is my preference of the two by far).  I worked on a team of 4-5 on 3 projects, two of which are deployed and showcased in the Portfolio section of this site.
                 </p>
                 <br/>
                 <p>
