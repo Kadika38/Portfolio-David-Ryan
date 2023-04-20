@@ -9,15 +9,6 @@ export default function Nav({ currentPage, handlePageChange }) {
         <div className="flexy">
             <div className="titleLink">
                 <a
-                className="secretNav"
-                href="#secret"
-                onClick={() => handlePageChange('Secret')}
-                >
-                    Secret
-                </a>
-            </div>
-            <div className="titleLink">
-                <a
                 className={currentPage === 'About' ? 'titleACurrent' : 'titleA'}
                 href="#aboutMe"
                 onClick={() => handlePageChange('About')}
@@ -32,15 +23,6 @@ export default function Nav({ currentPage, handlePageChange }) {
                 onClick={() => handlePageChange('Portfolio')}
                 >
                     Portfolio
-                </a>
-            </div>
-            <div className="titleLink">
-                <a
-                className={currentPage === 'Contact' ? 'titleACurrent' : 'titleA'}
-                href="#contact"
-                onClick={() => handlePageChange('Contact')}
-                >
-                    Contact
                 </a>
             </div>
             <div className="titleLink">
