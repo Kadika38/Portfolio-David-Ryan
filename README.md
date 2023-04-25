@@ -1,5 +1,5 @@
 # Portfolio-David-Ryan
-This is my portfolio website.  Deployed at https://github.com/Kadika38/Portfolio-David-Ryan.
+This is my portfolio website.  Deployed at portfolio-david-ryan.herokuapp.com.
 
 ## Table of Contents
 * [Description](#general-description)
