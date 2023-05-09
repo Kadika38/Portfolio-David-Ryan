@@ -201,27 +201,23 @@ button {
 
 /* Images used for Work section */
 #work1 {
-    background-image: url('../assets/petConnect2.png');
+    background-image: url('../assets/JSONBucketScreenshot.jpg');
 }
 
 #work2 {
-    background-image: url('../assets/bseScreenshot.jpg');
+    background-image: url('../assets/petConnect2.png');
 }
 
 #work3 {
-    background-image: url('../assets/jateScreenshot.jpg');
+    background-image: url('../assets/bseScreenshot.jpg');
 }
 
 #work4 {
-    background-image: url('../assets/petConnectScreenshot.jpg');
+    background-image: url('../assets/jateScreenshot.jpg');
 }
 
 #work5 {
     background-image: url('../assets/socialNetworkAPIScreenshot.jpg');
-}
-
-#work6 {
-    background-image: url('../assets/techBlogScreenshot.jpg');
 }
 
 /* Cover is used as an element over the images to add variable opacity based on hover */
