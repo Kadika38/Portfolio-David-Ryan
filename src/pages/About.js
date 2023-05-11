@@ -20,7 +20,7 @@ export default function About() {
                 </p>
                 <br/>
                 <p>
-                    I have experience writing code in JavaScript, Java, Python, C++, HTML, CSS, and SQL as well as a full understanding of OOP.  I have deployed projects using several different databases (SQL, MongoDB, indexedDB, GraphQL) and tools such as Express, Sequelize, and Mongoose.  I have multiple projects built using React.  I worked on a team of 4-5 on 3 projects, two of which are deployed and one of which is showcased in the Portfolio section of this site.  I also have used AWS Lambda functions, AWS API Gateways, and AWS DynamoDB, though none of my deployed projects use these (yet).
+                    I have experience writing code in JavaScript, Java, Python, C++, HTML, CSS, and SQL as well as a full understanding of OOP.  I have deployed projects using several different databases (SQL, MongoDB, indexedDB, GraphQL) and tools such as Express, Sequelize, and Mongoose.  I have multiple projects built using React.  I worked on a team of 4-5 on 3 projects, two of which were deployed and one of which is showcased in the Portfolio section of this site.  I also have used AWS Lambda functions, AWS API Gateways, and AWS DynamoDB, though none of my deployed projects use these (yet).
                 </p>
                 <br/>
                 <p>
